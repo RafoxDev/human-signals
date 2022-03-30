@@ -15,7 +15,7 @@ this includes:
 # Example
 
 ```js
-import { signalsByName } from "{WIP}";
+import { signalsByName } from "https://deno.land/x/human_signals/mod.ts";
 
 console.log(signalsByName.SIGINT);
 // {

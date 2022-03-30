@@ -1,3 +1,4 @@
+name: Test
 on: [push, pull_request]
 
 jobs:
@@ -17,16 +18,11 @@ jobs:
         with:
           deno-version: ${{ matrix.deno }}
 
-      - name: Setup Node
-        uses: actions/setup-node@master
-        with:
-          node-version: 12
-
       - name: Print deno version
         run: deno --version
 
       - name: Check format
-        run: deno fmt --check **/*.ts
+        run: deno fmt --check
 
       - name: Run tests
         run: deno test --unstable

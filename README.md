@@ -1,4 +1,4 @@
-[![Build](https://github.com/RafoxDev/human-signals/workflows/Build/badge.svg)](https://github.com/RafoxDev/human-signals/actions)
+[![Build](https://github.com/RafoxDev/human-signals/workflows/Test/badge.svg)](https://github.com/RafoxDev/human-signals/actions)
 
 Human-friendly process signals ported to deno.
 
